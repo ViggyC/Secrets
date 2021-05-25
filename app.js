@@ -69,6 +69,7 @@ passport.deserializeUser(function (id, done) {
   });
 });
 
+console.log()
 passport.use(
   new GoogleStrategy(
     {
@@ -202,5 +203,5 @@ if(port===null || port === ""){
 }
 
 app.listen(port, function () {
-  console.log("Server has started");
+  console.log("Server has started okokokok");
 });
